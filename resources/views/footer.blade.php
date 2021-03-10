@@ -1,9 +1,5 @@
-<div class="card">
+  <div style="clear:both" class="panel panel-default">
+    <div class="panel-body">Panel Content</div>
+    <div class="panel-heading">Panel Heading</div>
+    
   </div>
-  <div class="card-body">
-  	Footer
-  </div>
-  <div class="card-footer">
-  	Footer Card
-  </div>
-</div>

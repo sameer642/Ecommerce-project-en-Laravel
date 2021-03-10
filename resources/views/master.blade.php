@@ -3,14 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<title>Ecomm Project</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-   <script src='http://kit.fontawesome.com/a076d05399.js' ></script>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 	{{View::make('header')}}
@@ -23,6 +20,31 @@
 	.custom-login{
 		height: 500px;
 		padding-top: 100px;
+	}
+	img.slider-img{
+		height: 400px !important;
+
+	}
+	.custom-product{
+		height: 600px;
+
+	}
+	.trending-img{
+		height: 100px;
+
+	}
+	.trending-item{
+		float: left;
+		width: 20%;
+	}
+	.trending-wrapper{
+		margin: 20px;
+	}
+	.detail-img{
+		height: 200px;
+	}
+	.search-box{
+		width: 500px !important;
 	}
 </style>
 </html>
