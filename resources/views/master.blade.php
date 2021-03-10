@@ -46,5 +46,11 @@
 	.search-box{
 		width: 500px !important;
 	}
+	.cart-list-divider{
+		border-bottom: 1px solid #CCC;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+
+	}
 </style>
 </html>
